@@ -1,5 +1,5 @@
 # Autonomous Rover V2
-This is a WIP version 2 of my autonomous face tracking rover. This is not a tutorial, but information on how I made it. 
+This is a WIP version 2 of my [This is an external link to genome.gov](https://www.genome.gov/). This is not a tutorial, but information on how I made it. 
 
 ### Components
 - 4 mecanum wheels
