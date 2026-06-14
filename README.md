@@ -34,12 +34,12 @@ It would:
 For the LEDs I wanted 2 of them to act as bits in binary, with each number representing a certain object from the YOLO libary that was detected. Blue represented 0 and white represented 1. 
 
 The identification is below:
-00 (0 in binary) - person
-01 (1 in binary) -
-10 (2 in binary) -
-11 (3 in binary) - 
+- 00 (0 in binary) - person
+- 01 (1 in binary) -
+- 10 (2 in binary) -
+- 11 (3 in binary) - 
 
 The third LED would be a diagnostic:
-Nothing detected - Red
-Object detected and action in progress - Yellow
-Object detected and action completed - Green
+- Nothing detected - Red
+- Object detected and action in progress - Yellow
+- Object detected and action completed - Green
