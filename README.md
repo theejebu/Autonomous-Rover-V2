@@ -9,7 +9,7 @@ This is a WIP version 2 of my [autonomous face tracking rover](https://github.co
 - ESP32-S3-CAM
 - HC-SR04 distance sensor
 - Some extra jumper wires
-- Some RGB LEDs
+- Some LEDs
 
 ### Introduction
 To build this project I wanted to challenge myself and learn different skills, like soldering, 3D designing and PCB design. Compared to my first version of this robot, which could only track and move to faces, I wanted this to be able to detect people, other objects and also have the ability to scan for them. My previous design also didn't have a distance check which is what I wanted to implement using a distance sensor. Additionally, instead of Haar Cascade to detect faces, I would use YOLO on my PC to detect various objects and send the data to my ESP32 over Wi-Fi.
@@ -29,17 +29,18 @@ It would:
 - Have a distance sensor
 - Have female header pins for me the plug the ESP32 into
 - Have male pins for the ESP32 to connect to the driver module
-- And have 3 LEDs
+- And have 4 LEDs
 
-For the LEDs I wanted 2 of them to act as bits in binary, with each number representing a certain object from the YOLO libary that was detected. Blue represented 0 and white represented 1. 
+One of the LEDs was going to be RGB and change colours based on what object was being detected. 
 
 The identification is below:
-- 00 (0 in binary) - person
-- 01 (1 in binary) -
-- 10 (2 in binary) -
-- 11 (3 in binary) - 
-
-The third LED would be a diagnostic:
-- Nothing detected - Red
-- Object detected and action in progress - Yellow
-- Object detected and action completed - Green
+- Red - Person
+- Green - Car
+- Blue - Truck
+- Cyan - Phone
+- Yellow - Bottle
+- Magenta - Remote
+The other 3 LEDs would be diagnostics:
+- Nothing detected - Red one lights up
+- Something detected and action in progress - Yellow one lights up
+- Something detected and action completed - Green one lights up
