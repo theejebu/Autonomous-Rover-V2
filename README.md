@@ -29,18 +29,9 @@ It would:
 - Have a distance sensor
 - Have female header pins for me the plug the ESP32 into
 - Have male pins for the ESP32 to connect to the driver module
-- And have 4 LEDs
+- And have 3 LEDs
 
-One of the LEDs was going to be RGB and change colours based on what object was being detected. 
-
-The identification is below:
-- Red - Person
-- Green - Car
-- Blue - Truck
-- Cyan - Phone
-- Yellow - Bottle
-- Magenta - Remote
-The other 3 LEDs would be diagnostics:
+The 3 LEDs would be diagnostics:
 - Nothing detected - Red one lights up
 - Something detected and action in progress - Yellow one lights up
 - Something detected and action completed - Green one lights up
