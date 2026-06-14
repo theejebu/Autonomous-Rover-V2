@@ -21,7 +21,7 @@ To make the autonomous rover, I first dissasembled a mecanum based RC car, which
 
 The wheels did not fit onto my DC motors so I had to model an adapter. 
 
-It was in this part of my project where I decided I make my own custom PCB with additional features. This would mean I would have to learn how to make a PCB, and also 3D print a chassis to hold the new components. I will still use the motor driver and keep the other features of my idea as part of the PCB> 
+It was in this part of my project where I decided I make my own custom PCB with additional features. This would mean I would have to learn how to make a PCB, and also 3D print a chassis to hold the new components. I will still use the motor driver and keep the other features of my idea as part of the PCB.
 
 ### PCB Design
 I had a few ideas for the PCB. 
