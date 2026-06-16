@@ -35,3 +35,8 @@ The 3 LEDs would be diagnostics:
 - Nothing detected - Red one lights up
 - Something detected and action in progress - Yellow one lights up
 - Something detected and action completed - Green one lights up
+
+### PCB Calculations
+I had to do a few calculations for the PCB.
+To find the total current I had to total the current of all of the components plus some headroom which amounted to 600 mA.
+I next used Ohm's law to find that I should use 220Ω resistors for the LEDs. 
