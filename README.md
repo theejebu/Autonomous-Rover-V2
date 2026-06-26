@@ -39,4 +39,4 @@ The 3 LEDs would be diagnostics:
 ### PCB Calculations
 I had to do a few calculations for the PCB.
 To find the total current I had to total the current of all of the components plus some headroom which amounted to 600 mA.
-I next used Ohm's law to find that I should use 220Ω resistors for the LEDs. 
+I next used Ohm's law to find that I should use 220Ω resistors for the LEDs. Additionally, I had to learn the voltage divider and inductor calculations.
